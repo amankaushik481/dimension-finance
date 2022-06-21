@@ -12,10 +12,12 @@ const Hero = () => {
           We give more than <span className="span">140%</span> returns on your
           fortune
         </h1>
-        <a className="know__link" href="/whitepaper">
-          <button className="know">Know How</button>
-        </a>
-        <button className="invest">Invest Now</button>
+        <div className="button__container">
+          <a className="know__link" href="/whitepaper">
+            <button className="know">Know How</button>
+          </a>
+          <button className="invest">Invest Now</button>
+        </div>
       </div>
       <div className="globe__container">
         <img className="globe" src={Globe} />
