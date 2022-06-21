@@ -25,3 +25,13 @@
 .know__link:hover {
   border: none;
 }
+@media only screen and (max-width: 1024px) {
+  .heading {
+    font-size: 62px;
+  }
+}
+@media only screen and (max-width: 1256px) {
+  .globe {
+    height: 400px;
+  }
+}
