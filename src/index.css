@@ -2,8 +2,12 @@
 :root {
   --gray: #787aa5;
   --light-gray: #5c5d75;
+  --purple: #b985fb;
 }
-
+::selection {
+  background: var(--purple);
+  color: white;
+}
 body {
   margin: 0;
   font-family: "Nunito", sans-serif;
