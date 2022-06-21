@@ -56,6 +56,7 @@ a:hover {
   .mobile__menu {
     display: block;
     z-index: 1;
+    transition: display 1s linear;
   }
   .navlist__container {
     background: #21212b;

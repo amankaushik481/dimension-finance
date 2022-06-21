@@ -64,6 +64,12 @@
   .globe {
     margin-top: 2rem;
   }
+  .button__container {
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 @media only screen and (max-width: 467px) {
@@ -82,7 +88,7 @@
     width: 360px;
   }
   .button__container {
-    width: 360px;
+    width: 330px;
     display: flex;
     justify-content: space-between;
   }
