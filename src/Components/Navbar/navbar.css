@@ -56,7 +56,6 @@ a:hover {
   .mobile__menu {
     display: block;
     z-index: 1;
-    transition: display 1s linear;
   }
   .navlist__container {
     background: #21212b;
@@ -74,6 +73,7 @@ a:hover {
     align-items: center;
     max-width: 200px;
     z-index: -1;
+    margin-left: -35px;
   }
   .closeline {
     z-index: 1;

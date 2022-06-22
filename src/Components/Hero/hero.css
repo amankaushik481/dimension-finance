@@ -14,7 +14,7 @@
   max-width: 800px;
 }
 .blob {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   z-index: -1;
@@ -85,10 +85,10 @@
     left: -100px;
   }
   .globe {
-    width: 360px;
+    width: 320px;
   }
   .button__container {
-    width: 330px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
   }
