@@ -17,7 +17,9 @@ const Menu = () => {
           <a href="/roadmap">The Roadmap</a>
         </li>
         <li>
-          <a href="/whitepaper">Whitepaper</a>
+          <a href="https://aman-kaushik.gitbook.io/dimension-whitepaper/">
+            Whitepaper
+          </a>
         </li>
         <li>
           <button className="cta">Get in touch</button>
