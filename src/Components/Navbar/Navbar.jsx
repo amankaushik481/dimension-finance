@@ -17,7 +17,10 @@ const Menu = () => {
           <a href="/roadmap">The Roadmap</a>
         </li>
         <li>
-          <a href="https://aman-kaushik.gitbook.io/dimension-whitepaper/">
+          <a
+            href="https://aman-kaushik.gitbook.io/dimension-whitepaper/"
+            target="_blank"
+          >
             Whitepaper
           </a>
         </li>
