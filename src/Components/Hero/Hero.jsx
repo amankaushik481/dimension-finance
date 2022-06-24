@@ -13,7 +13,11 @@ const Hero = () => {
           fortune
         </h1>
         <div className="button__container">
-          <a className="know__link" href="/whitepaper">
+          <a
+            className="know__link"
+            href="https://aman-kaushik.gitbook.io/dimension-whitepaper/"
+            target="_blank"
+          >
             <button className="know">Know How</button>
           </a>
           <button className="invest">Invest Now</button>

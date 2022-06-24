@@ -1,0 +1,20 @@
+.homepage2 {
+  width: 90%;
+  margin: auto;
+}
+.img__container {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+.logos {
+  transition: 2s;
+  max-height: 600px;
+}
+.navbar__container {
+  width: 100%;
+}
+.imgg {
+  height: 150vh;
+}

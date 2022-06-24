@@ -6,11 +6,12 @@ import {
   Route,
   useRoutes,
 } from "react-router-dom";
-import { Homepage, About, Whitepaper } from "./Pages";
+import { Homepage, Homepage2, About, Whitepaper } from "./Pages";
 
 const AppRoute = () => {
   let routes = useRoutes([
-    { path: "/", element: <Homepage /> },
+    // { path: "/", element: <Homepage /> },
+    { path: "/", element: <Homepage2 /> },
     { path: "/whitepaper", element: <Whitepaper /> },
     { path: "/about", element: <About /> },
   ]);
