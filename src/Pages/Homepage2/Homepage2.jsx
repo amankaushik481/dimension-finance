@@ -20,7 +20,7 @@ const Homepage2 = () => {
         {" "}
         {scroll > 500 ? <Navbar /> : ""}
       </div>
-      <div className="homepage2" onWheel={handleScroll}>
+      <div className="homepage2" onWheel={handleScroll} onScroll={handleScroll}>
         <div className="imgg">
           <div className="img__container">
             {scroll < 500 ? (
