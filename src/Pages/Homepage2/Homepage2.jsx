@@ -10,7 +10,6 @@ const Homepage2 = () => {
   const handleScroll = () => {
     const scroll = window.scrollY;
     setScroll(scroll);
-    console.log(scroll);
   };
   return (
     <div>
@@ -18,10 +17,14 @@ const Homepage2 = () => {
         className="navbar__container"
         style={scroll > 200 ? { position: "fixed" } : {}}
       >
-        {" "}
         {scroll > 200 ? <Navbar /> : ""}
       </div>
-      <div className="homepage2" onWheel={handleScroll} onScroll={handleScroll}>
+      <div
+        className="homepage2"
+        onWheel={handleScroll}
+        onScroll={handleScroll}
+        onTouchMove={handleScroll}
+      >
         <div
           className="imgg"
           style={scroll > 200 ? { height: "10vh" } : { height: "150vh" }}

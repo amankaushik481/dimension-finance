@@ -18,3 +18,8 @@
 .imgg {
   height: 100vh;
 }
+@media only screen and (max-width: 968px) {
+  /* .imgg {
+    display: none;
+  } */
+}
