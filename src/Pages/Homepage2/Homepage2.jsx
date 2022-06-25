@@ -3,6 +3,7 @@ import { Navbar, Hero } from "../../Components";
 import "./homepage2.css";
 import Logo from "../../assets/logo.png";
 import { useState } from "react";
+import { motion } from "framer-motion";
 
 const Homepage2 = () => {
   const [scroll, setScroll] = useState(0);
@@ -15,30 +16,41 @@ const Homepage2 = () => {
     <div>
       <div
         className="navbar__container"
-        style={scroll > 500 ? { position: "fixed" } : {}}
+        style={scroll > 200 ? { position: "fixed" } : {}}
       >
         {" "}
-        {scroll > 500 ? <Navbar /> : ""}
+        {scroll > 200 ? <Navbar /> : ""}
       </div>
       <div className="homepage2" onWheel={handleScroll} onScroll={handleScroll}>
-        <div className="imgg">
-          <div className="img__container">
-            {scroll < 500 ? (
+        <div
+          className="imgg"
+          style={scroll > 200 ? { height: "10vh" } : { height: "150vh" }}
+        >
+          <a href="/">
+            <div className={scroll < 200 ? "img__container" : ""}>
               <img
                 src={Logo}
                 className="logos"
-                style={{
-                  height: `${500 - scroll}px`,
-                  marginLeft: `${-4 * scroll}px`,
-                }}
+                style={
+                  scroll > 200
+                    ? {
+                        marginTop: "23px",
+                        Left: "0",
+                        height: "48px",
+                        transition: "all 2s ease",
+                        position: "fixed",
+                        zIndex: "0",
+                      }
+                    : { height: "600px", position: "fixed" }
+                }
               />
-            ) : (
-              ""
-            )}
-          </div>
+            </div>
+          </a>
         </div>
       </div>
+      {/* <div style={scroll < 200 ? { display: "none" } : { display: "block", marginTop:"0px" }}> */}
       <Hero />
+      {/* </div> */}
     </div>
   );
 };
