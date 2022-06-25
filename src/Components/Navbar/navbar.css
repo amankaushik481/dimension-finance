@@ -53,6 +53,10 @@ a:hover {
   .navbar__menu_container {
     display: none;
   }
+  .navbar {
+    margin-top: 23px;
+    position: relative;
+  }
   .mobile__menu {
     display: block;
     z-index: 1;

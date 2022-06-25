@@ -29,26 +29,26 @@ const Homepage2 = () => {
           className="imgg"
           style={scroll > 200 ? { height: "10vh" } : { height: "150vh" }}
         >
-          <a href="/">
-            <div className={scroll < 200 ? "img__container" : ""}>
-              <img
-                src={Logo}
-                className="logos"
-                style={
-                  scroll > 200
-                    ? {
-                        marginTop: "23px",
-                        Left: "0",
-                        height: "48px",
-                        transition: "all 2s ease",
-                        position: "fixed",
-                        zIndex: "0",
-                      }
-                    : { height: "600px", position: "fixed" }
-                }
-              />
-            </div>
-          </a>
+          {/* <a href="/"> */}
+          <div className={scroll < 200 ? "img__container" : ""}>
+            <img
+              src={Logo}
+              className="logos"
+              style={
+                scroll > 200
+                  ? {
+                      marginTop: "23px",
+                      Left: "0",
+                      height: "48px",
+                      transition: "all 2s ease",
+                      position: "fixed",
+                      zIndex: "0",
+                    }
+                  : { height: "600px", position: "fixed" }
+              }
+            />
+          </div>
+          {/* </a> */}
         </div>
       </div>
       {/* <div style={scroll < 200 ? { display: "none" } : { display: "block", marginTop:"0px" }}> */}
