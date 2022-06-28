@@ -13,6 +13,16 @@
 .logo {
   height: 48px;
 }
+.logo__link {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  gap: 2px;
+}
+.logo__text {
+  font-family: var(--fontsquare);
+  font-size: 30px;
+}
 ul {
   list-style-type: none;
   display: flex;
@@ -23,6 +33,9 @@ a {
   text-decoration: none;
   font-size: 16px;
   color: var(--gray);
+  transition: all 1s ease;
+  font-family: var(--fontsquare);
+  letter-spacing: 2px;
 }
 a:hover {
   border-bottom: 1px solid #fff;

@@ -1,8 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap");
 :root {
   --gray: #787aa5;
   --light-gray: #5c5d75;
   --purple: #b985fb;
+  --fontsquare: "Orbitron", sans-serif;
 }
 ::selection {
   background: var(--purple);
