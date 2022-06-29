@@ -12,12 +12,28 @@
 .heading {
   font-size: 70px;
   max-width: 800px;
+  font-family: var(--fontsquare);
+  line-height: 125px;
+  letter-spacing: 5px;
 }
 .blob {
   position: absolute;
   top: 0;
   left: 0;
   z-index: -1;
+}
+.text__container {
+  max-width: 900px;
+}
+.text__container h1 {
+  font-size: 72px;
+  font-family: var(--fontsquare);
+}
+.text__container p {
+  font-size: 32px;
+  letter-spacing: 2px;
+  line-height: 50px;
+  text-align: justify;
 }
 .know,
 .invest {

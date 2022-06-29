@@ -18,6 +18,12 @@ const About = () => {
           Dimension Protocol help other proof-of-stake cryptocurrencys by
           increasing their efficiency in validation process which help them
           increase their transaction speed and limits.
+          <br />
+          <br />
+          Dimension Protocol is a complex masternode mining program which is a
+          blockchain based economy. This protocol generates revenue by operating
+          several masternodes, price gains and services provided leveraging each
+          cryptocurrency's blockchain.
         </p>
       </div>
     </div>
