@@ -37,9 +37,9 @@
   font-family: var(--fontsquare);
 }
 .text__container p {
-  font-size: 32px;
+  font-size: 26px;
   letter-spacing: 2px;
-  line-height: 50px;
+  line-height: 30px;
   text-align: justify;
 }
 .know,
@@ -108,7 +108,7 @@
     left: -100px;
   }
   .globe {
-    width: 320px;
+    max-width: 320px;
   }
   .button__container {
     width: 100%;

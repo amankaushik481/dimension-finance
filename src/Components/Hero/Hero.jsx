@@ -28,8 +28,8 @@ const Hero = () => {
         </p>
       </div>
       <div className="globe__container">
-        <img className="globe" src={Logo} />
-        {/* <img className="globe" src={Globe} /> */}
+        {/* <img className="globe" src={Logo} /> */}
+        <img className="globe" src={Globe} />
       </div>
     </div>
   );
