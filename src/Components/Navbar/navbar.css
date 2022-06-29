@@ -12,6 +12,7 @@
 }
 .logo {
   height: 48px;
+  width: 45px;
 }
 .logo__link {
   display: flex;

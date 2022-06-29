@@ -5,6 +5,16 @@
   margin-top: 5rem;
   align-items: center;
   justify-content: center;
+  flex: 50%;
+}
+.globe__container,
+.text__container {
+  flex: 50%;
+}
+.globe__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .globe {
   height: 600px;
@@ -21,9 +31,6 @@
   top: 0;
   left: 0;
   z-index: -1;
-}
-.text__container {
-  max-width: 900px;
 }
 .text__container h1 {
   font-size: 72px;
@@ -107,5 +114,12 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
+  }
+  .text__container h1 {
+    font-size: 46px;
+  }
+  .text__container p {
+    font-size: 20px;
+    line-height: 30px;
   }
 }
