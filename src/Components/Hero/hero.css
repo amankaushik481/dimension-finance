@@ -34,13 +34,7 @@
 }
 .text__container h1 {
   font-size: 72px;
-  font-family: var(--fontsquare);
-}
-.text__container p {
-  font-size: 26px;
-  letter-spacing: 2px;
-  line-height: 30px;
-  text-align: justify;
+  max-width: 800px;
 }
 .know,
 .invest {
@@ -69,6 +63,7 @@
 .know__link:hover {
   border: none;
 }
+
 @media only screen and (max-width: 1024px) {
   .heading {
     font-size: 62px;
@@ -117,9 +112,5 @@
   }
   .text__container h1 {
     font-size: 46px;
-  }
-  .text__container p {
-    font-size: 20px;
-    line-height: 30px;
   }
 }
