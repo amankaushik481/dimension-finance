@@ -39,7 +39,7 @@ const Navbar = () => {
       <div className="logo__container">
         <a href="/" className="logo__link">
           <img className="logo" src={Logo} />{" "}
-          <span className="logo__text">imension</span>
+          {/* <span className="logo__text">imension</span> */}
         </a>
       </div>
       <div className="navbar__menu_container">

@@ -11,12 +11,12 @@
   color: white;
 }
 body {
-  margin: 0;
+  margin: auto;
   font-family: "Nunito", sans-serif;
   background: #2e2e3e;
   color: var(--gray);
+  max-width: 2000px;
 }
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;

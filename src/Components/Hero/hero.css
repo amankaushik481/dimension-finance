@@ -9,15 +9,13 @@
 }
 .globe__container,
 .text__container {
+  /* margin-top: 10rem; */
   flex: 50%;
 }
 .globe__container {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-.globe {
-  height: 600px;
 }
 .heading {
   font-size: 70px;
@@ -26,6 +24,27 @@
   line-height: 125px;
   letter-spacing: 5px;
 }
+.hero__para {
+  margin-top: -2rem;
+}
+.globe {
+  height: 600px;
+}
+.button__container {
+  display: flex;
+  align-items: center;
+}
+.button__container img {
+  margin-bottom: -15.6rem;
+  cursor: pointer;
+}
+.input__container {
+  height: 61px;
+  max-width: 409px;
+  background: url("../../assets/input.png") no-repeat;
+  background-size: cover;
+}
+
 .blob {
   position: absolute;
   top: 0;
@@ -36,26 +55,23 @@
   font-size: 72px;
   max-width: 800px;
 }
-.know,
-.invest {
-  background: linear-gradient(180deg, #6d6d8a 0%, #37374a 100%);
-  box-shadow: 0px 139.947px 111.957px rgba(0, 0, 0, 0.25),
-    0px 90.7062px 65.5676px rgba(0, 0, 0, 0.189815),
-    0px 53.9054px 35.6605px rgba(0, 0, 0, 0.151852),
-    0px 27.9893px 18.1931px rgba(0, 0, 0, 0.125),
-    0px 11.4031px 9.12245px rgba(0, 0, 0, 0.0981481),
-    0px 2.5916px 4.40573px rgba(0, 0, 0, 0.0601852);
-  border-radius: 14px;
-
-  height: 48px;
-  color: #fff;
-  cursor: pointer;
+.input {
+  width: 350px;
+  left: 403px;
+  top: 504.17px;
+  color: var(--gray);
+  background: none;
   border: none;
-  font-weight: bold;
+  padding: 20px;
   font-size: 16px;
-  padding-left: 26px;
-  padding-right: 26px;
-  margin-left: 3.15rem;
+}
+.input:focus,
+.input:active {
+  outline: none;
+}
+.input::placeholder {
+  color: var(--light-gray);
+  font-size: 16px;
 }
 .span {
   color: var(--purple);
@@ -63,7 +79,21 @@
 .know__link:hover {
   border: none;
 }
+.rocket {
+  width: 200px;
+  height: 200px;
+}
+.email__button {
+  margin-left: -7rem;
+  overflow: hidden;
+}
 
+@media only screen and (max-width: 1124px) {
+  .button__container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
 @media only screen and (max-width: 1024px) {
   .heading {
     font-size: 62px;
@@ -83,7 +113,6 @@
     margin-top: 2rem;
   }
   .button__container {
-    max-width: 500px;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -112,5 +141,13 @@
   }
   .text__container h1 {
     font-size: 46px;
+  }
+  .input__container {
+    width: 300px;
+    background-size: contain;
+  }
+  .input {
+    width: 300px;
+    margin-top: -6px;
   }
 }
